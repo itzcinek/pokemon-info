@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(149, 210, 230);
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    font-size: 3rem;
+}
+
+#container {
+    position: relative;
+    text-align: center;
+    width: 450px;
+    height: 400px;
+    border: 1px solid black;
+}
+
+#pokemonName {
+    width: 200px;
+}
+
+#pokemonFrontImg, #pokemonBackImg {
+    display: none;
+}
+
+#pokemonTypes{
+    font-size: 1rem;
+    color: rgb(23, 0, 93);
+    display: none;
+    text-align: center;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 50%; transform: 
+    translateX(-50%);
+    font-size: 12px;
+}
