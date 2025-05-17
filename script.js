@@ -2,6 +2,7 @@ const submitBtn = document.getElementById("submitBtn");
 const pokemonFrontImg = document.getElementById("pokemonFrontImg");
 const pokemonBackImg = document.getElementById("pokemonBackImg");
 const pokemonTypes = document.getElementById("pokemonTypes");
+const pokemonId = document.getElementById("pokemonId");
 
 submitBtn.addEventListener('click', () =>{
     const pokemonName = document.getElementById("pokemonName").value.toLowerCase();
@@ -35,5 +36,8 @@ async function getPokemonData(pokemonName){
 
     pokemonTypes.textContent = pokemonTypesContent;
     pokemonTypes.style.display = "block";
+
+    pokemonId.textContent = "id: " + data.id;
+    pokemonId.style.display = "block";
 
 }

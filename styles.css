@@ -2,6 +2,7 @@ body {
     background-color: rgb(149, 210, 230);
     display: flex;
     justify-content: center;
+    align-items: center;
     height: 100vh;
     font-size: 3rem;
 }
@@ -9,24 +10,33 @@ body {
 #container {
     position: relative;
     text-align: center;
-    width: 450px;
-    height: 400px;
+    width: 900px;
+    height: 800px;
     border: 1px solid black;
 }
 
 #pokemonName {
-    width: 200px;
+    font-size: 1.5rem;
+    width: 350px;
+    height: 25px;
 }
 
 #pokemonFrontImg, #pokemonBackImg {
+    image-rendering: pixelated;
+    width: 225px;
     display: none;
 }
 
 #pokemonTypes{
-    font-size: 1rem;
+    font-size: 3rem;
     color: rgb(23, 0, 93);
     display: none;
     text-align: center;
+}
+
+#pokemonId {
+    font-size: 1.5rem;
+    display: none;
 }
 
 footer {
@@ -34,5 +44,5 @@ footer {
     bottom: 0;
     left: 50%; 
     transform: translateX(-50%);
-    font-size: 12px;
+    font-size: 1.3rem
 }
