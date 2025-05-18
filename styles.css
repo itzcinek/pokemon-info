@@ -8,11 +8,13 @@ body {
 }
 
 #container {
+    background: linear-gradient(rgb(72, 147, 234), rgb(0, 204, 255));
     position: relative;
     text-align: center;
-    width: 900px;
+    width: 800px;
     height: 800px;
-    border: 1px solid black;
+    border: 3px solid black;
+    border-radius: 50px;
 }
 
 #pokemonName {
